@@ -1,0 +1,11 @@
+listen: 8080
+log:
+  level: INFO
+  path: ./app.log
+
+
+mysql:
+  dsn: "root:@tcp(127.0.0.1:3306)/minimalism?charset=utf8mb4&parseTime=True&loc=Local"
+  idle: 4
+  limit: 100
+  timeout: 1000
